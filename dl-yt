@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$#" -ne 1 ]
+then 
+  echo "Usage dl-yt <twitter/youtube video URL>"
+  exit 1
+fi
+format=`yt-dlp -F $1 | grep hls | tail -1 | cut -f 1 -d " "`
+yt-dlp -f $format $1
