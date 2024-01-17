@@ -1,7 +1,7 @@
 # dl-yt
 A Youtube/Twitter video downloader shell cript. A wrapper over yt-dlp.
 
-How to install: 
+## How to install: 
 1- Install yt-dlp on your Mac OS or Linux.
 
 2- Download dl-yt from this repository
@@ -10,5 +10,6 @@ How to install:
 
 4- Copy it somewhere on your PATH. For example mv dl-yt /usr/local/bin
 
-Usage: 
+## Usage: 
+
 dl-yt <Youtube or Twitter video URL> downloads the video to your current directory
